@@ -1,0 +1,18 @@
+(Get-FileHash .\esp32-ethernet.bin -Algorithm SHA256).Hash.ToLower()
+
+{
+  "command": "firmware_update",
+  "target": "esp32",
+  "url": "https://raw.githubusercontent.com/alexprokopov1992/ota-test/main/esp32-ethernet.bin",
+  "sha256": "1559b61c698a29acf2bca99035d11361052f6345979be6063fae7b04282bc863",
+  "request_id": "esp32-test-001"
+}
+
+(Get-FileHash .\stm32_master_new.bin -Algorithm SHA256).Hash.ToLower()
+{
+  "command": "firmware_update",
+  "target": "stm32",
+  "url": "https://raw.githubusercontent.com/alexprokopov1992/ota-test/main/stm32_master_new.bin",
+  "sha256": "6ab4d74574a5a8d628e2d9eb94fa544840f5af7f683d10f4a0e1b62675e4102a",
+  "request_id": "stm32-test-001"
+}

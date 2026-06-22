@@ -4,7 +4,7 @@
   "command": "firmware_update",
   "target": "esp32",
   "url": "https://raw.githubusercontent.com/alexprokopov1992/ota-test/main/esp32-ethernet.bin",
-  "sha256": "1559b61c698a29acf2bca99035d11361052f6345979be6063fae7b04282bc863",
+  "sha256": "a4b3a61197422d2fd14af028ff2c26f834118809d6e04f6415938532633d5b15",
   "request_id": "esp32-test-001"
 }
 

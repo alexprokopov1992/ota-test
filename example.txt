@@ -4,7 +4,7 @@
   "command": "firmware_update",
   "target": "esp32",
   "url": "https://raw.githubusercontent.com/alexprokopov1992/ota-test/main/esp32-ethernet.bin",
-  "sha256": "788c105ac5849a1aa77cac75ab11834ebb9976ddb2f23af5c9b4c47096ab411f",
+  "sha256": "cb8e3efb2bf64719718f3fe0c5b6aefc4eb5de00501b855a725c9fb09541144b",
   "request_id": "esp32-test-001"
 }
 
@@ -13,6 +13,6 @@
   "command": "firmware_update",
   "target": "stm32",
   "url": "https://raw.githubusercontent.com/alexprokopov1992/ota-test/main/stm32_master_new.bin",
-  "sha256": "e3a69aa77a8db5a7a93012c154c8eb3e3647e4dec77a16478bb10bbd223fd418",
+  "sha256": "941f884ac82f2fb51430d4113eb857f138333e14e63c4f3fac8b2c3cf249c06f",
   "request_id": "stm32-test-001"
 }

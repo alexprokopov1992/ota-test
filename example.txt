@@ -4,7 +4,7 @@
   "command": "firmware_update",
   "target": "esp32",
   "url": "https://raw.githubusercontent.com/alexprokopov1992/ota-test/main/esp32-ethernet.bin",
-  "sha256": "cb8e3efb2bf64719718f3fe0c5b6aefc4eb5de00501b855a725c9fb09541144b",
+  "sha256": "ea65d0996b02b382dbc441ee848214f75e0ca7315e1077cda459449a98a9b41d",
   "request_id": "esp32-test-001"
 }
 
@@ -13,6 +13,18 @@
   "command": "firmware_update",
   "target": "stm32",
   "url": "https://raw.githubusercontent.com/alexprokopov1992/ota-test/main/stm32_master_new.bin",
-  "sha256": "941f884ac82f2fb51430d4113eb857f138333e14e63c4f3fac8b2c3cf249c06f",
+  "sha256": "4aa50f478ba76aca23ffcc17b5954ab7bab1405e1b3a84bd4f89ce9b628b1373",
   "request_id": "stm32-test-001"
+}
+
+(Get-FileHash .\universal_hub.bin -Algorithm SHA256).Hash.ToLower()
+{
+  "command": "firmware_update",
+  "target": "hub",
+  "line": 1,
+  "address": 2,
+  "hub_serial": "505542010000000A",
+  "url": "https://raw.githubusercontent.com/alexprokopov1992/ota-test/main/universal_hub.bin",
+  "sha256": "f3c9e194203fcf16ad64efa6d8aefdbb62cfe057a50c6e1f2e19542483d6411d",
+  "request_id": "hub-l0-a1-001"
 }

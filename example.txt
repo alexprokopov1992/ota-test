@@ -13,7 +13,7 @@
   "command": "firmware_update",
   "target": "stm32",
   "url": "https://raw.githubusercontent.com/alexprokopov1992/ota-test/main/stm32_master_new.bin",
-  "sha256": "e96d53b3439c05dd43dd497e05c8bd7bf6b8137c21a8bd9606265337c178f08c",
+  "sha256": "b5c893118e240d5b4dfc5f80e5f00880bb1be90263e213156fcb7724f2066db3",
   "request_id": "stm32-test-001"
 }
 
@@ -25,6 +25,6 @@
   "address": 2,
   "hub_serial": "505542010000000A",
   "url": "https://raw.githubusercontent.com/alexprokopov1992/ota-test/main/universal_hub.bin",
-  "sha256": "7e87de01802375351b8588fcba52cceec3d634bd89ebca709ceb925acab2eb67",
+  "sha256": "ecf2fe25f45370f08da8a14c4c1d139e0318d0f3fb8a743d53c095ce28eae44e",
   "request_id": "hub-l0-a1-001"
 }
